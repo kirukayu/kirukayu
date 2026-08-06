@@ -19,11 +19,10 @@
 <br>
 
 i build tools for games. launchers, cheats, runtime tooling, and the reverse engineering
-that comes first.
 
-**luau** is my main language: roblox runtime tooling, ui libraries, bytecode and
-obfuscator output. **rust** holds anything that must not lose data. **typescript**
-for interfaces. python, c++ and java where they fit.
+**luau** is my main language: roblox runtime tooling, ui libraries, working with bytecode and
+obfuscator . **rust** , **typescript**
+for interfaces. python, c++ and java .
 
 <br>
 
