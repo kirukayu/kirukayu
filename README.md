@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="media/banner.gif" width="100%" alt="kirukayu">
+<img src="https://raw.githubusercontent.com/kirukayu/kirukayu/main/media/banner.gif" width="100%" alt="kirukayu">
 
 </div>
 
@@ -61,7 +61,7 @@ be built against something known rather than guessed at.
 
 <div align="center">
 
-<img src="media/roundtable.gif" width="760" alt="The Roundtable interface">
+<img src="https://raw.githubusercontent.com/kirukayu/kirukayu/main/media/roundtable.gif" width="760" alt="The Roundtable interface">
 
 </div>
 
