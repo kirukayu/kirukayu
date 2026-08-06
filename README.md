@@ -18,7 +18,7 @@
 
 <br>
 
-i build tools for games. launchers, runtime tooling, and the reverse engineering
+i build tools for games. launchers, cheats , runtime tooling, and the reverse engineering
 that comes first.
 
 **luau** is my main language: roblox runtime tooling, ui libraries, bytecode and
