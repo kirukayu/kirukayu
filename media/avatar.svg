@@ -1,27 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
   <!--
-    Avatar.
+    Avatar: L.
 
-    A single glyph over fog: two nested arcs broken at the cardinals, with a
-    diamond at the centre. Round-cropped by GitHub, so nothing important sits
-    within 70px of the edge, and it still reads at 40 pixels in a comment thread.
+    Drawn rather than set in a typeface, so the weight and the proportions are
+    exact at every size. The stem is offset left of centre and the foot runs
+    long — a centred L reads as a mistake, an intentionally placed one reads as
+    a mark. GitHub crops this to a circle, so nothing sits within 90px of the
+    edge and it still holds at 40 pixels.
   -->
   <defs>
-    <radialGradient id="bg" cx="0.34" cy="0.26" r="0.92">
-      <stop offset="0%"   stop-color="#1a1a1a"/>
-      <stop offset="46%"  stop-color="#0e0e0e"/>
+    <radialGradient id="bg" cx="0.34" cy="0.24" r="0.94">
+      <stop offset="0%"   stop-color="#1c1c1c"/>
+      <stop offset="44%"  stop-color="#0f0f0f"/>
       <stop offset="100%" stop-color="#040404"/>
     </radialGradient>
 
-    <radialGradient id="haze" cx="0.7" cy="0.78" r="0.6">
-      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.07"/>
+    <radialGradient id="haze" cx="0.74" cy="0.8" r="0.62">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.075"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
     </radialGradient>
 
-    <linearGradient id="silver" x1="0.1" y1="0" x2="0.9" y2="1">
+    <linearGradient id="silver" x1="0.05" y1="0" x2="0.95" y2="1">
       <stop offset="0%"   stop-color="#ffffff"/>
-      <stop offset="48%"  stop-color="#dcdcdc"/>
-      <stop offset="100%" stop-color="#7e7e7e"/>
+      <stop offset="44%"  stop-color="#e4e4e4"/>
+      <stop offset="100%" stop-color="#9a9a9a"/>
     </linearGradient>
 
     <filter id="grain">
@@ -33,22 +35,15 @@
 
   <rect width="1000" height="1000" fill="url(#bg)"/>
   <rect width="1000" height="1000" fill="url(#haze)"/>
-  <rect width="1000" height="1000" filter="url(#grain)" opacity="0.045"/>
+  <rect width="1000" height="1000" filter="url(#grain)" opacity="0.05"/>
 
-  <g fill="none" stroke="url(#silver)" stroke-linecap="round">
-    <!-- Outer ring, broken at the four cardinals. -->
-    <g stroke-width="26">
-      <path d="M500 172 A328 328 0 0 1 828 500"/>
-      <path d="M828 500 A328 328 0 0 1 500 828"/>
-      <path d="M500 828 A328 328 0 0 1 172 500"/>
-      <path d="M172 500 A328 328 0 0 1 500 172"/>
-    </g>
-    <!-- Inner ring, offset so the gaps never line up. -->
-    <g stroke-width="12" stroke-opacity="0.5">
-      <path d="M732 268 A328 328 0 0 1 732 732" transform="scale(0.7) translate(214 214)"/>
-      <path d="M268 732 A328 328 0 0 1 268 268" transform="scale(0.7) translate(214 214)"/>
-    </g>
-  </g>
+  <!--
+    The letter: one path, square corner, flat terminals. Lifted above the
+    geometric middle, because an L carries its mass in the bottom left and a
+    mathematically centred one sits visibly low.
+  -->
+  <path d="M352 250 H448 V626 H700 V714 H352 Z" fill="url(#silver)"/>
 
-  <path d="M500 392 L608 500 L500 608 L392 500 Z" fill="url(#silver)"/>
+  <!-- A hairline under the foot, so the mark has a base rather than an end. -->
+  <rect x="352" y="766" width="348" height="6" fill="#ffffff" opacity="0.22"/>
 </svg>
