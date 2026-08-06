@@ -2,6 +2,18 @@
 
 <img src="https://raw.githubusercontent.com/kirukayu/kirukayu/main/media/banner.gif" width="100%" alt="londo">
 
+<br><br>
+
+<img src="https://raw.githubusercontent.com/kirukayu/kirukayu/main/media/langs.png" height="62" alt="lua, rust, typescript, python, c++, java">
+
+<br><br>
+
+<img src="https://raw.githubusercontent.com/kirukayu/kirukayu/main/media/stack.png" height="52" alt="react, vite, tauri, electron, node, astro, fastapi, qt">
+
+<br><br>
+
+<img src="https://raw.githubusercontent.com/kirukayu/kirukayu/main/media/tools.png" height="52" alt="blender, roblox studio, git">
+
 </div>
 
 <br>
@@ -12,40 +24,16 @@ the thing it is talking to disagree about what is allowed.
 
 <br>
 
-### languages
+**luau / lua** is my first language and still the one i reach for. roblox runtime
+tooling, ui libraries, and reading code that did not want to be read — bytecode,
+obfuscator output, and the small utilities that make both tractable.
 
-<table>
-<tr>
-<td width="150"><b>luau / lua</b></td>
-<td>my first language and still the one i reach for. roblox runtime tooling, ui libraries, and reading code that did not want to be read — bytecode, obfuscator output, and the small utilities that make both tractable.</td>
-</tr>
-<tr>
-<td><b>rust</b></td>
-<td>where the parts that must not lose data live. binary formats, filesystem work, local http services, tauri backends.</td>
-</tr>
-<tr>
-<td><b>typescript</b></td>
-<td>interfaces. react, vite, and a real interest in motion — the difference between a page that works and a page that feels built is about four hundred milliseconds.</td>
-</tr>
-<tr>
-<td><b>python</b></td>
-<td>desktop apps with pyside6, http services with fastapi, and most of the analysis tooling that never ships anywhere.</td>
-</tr>
-<tr>
-<td><b>c++</b></td>
-<td>native windows work when nothing above it will do. direct3d, imgui, process internals.</td>
-</tr>
-<tr>
-<td><b>java</b></td>
-<td>minecraft server plugins on paper.</td>
-</tr>
-</table>
-
-<br>
-
-### also on hand
-
-`tauri` · `react` · `vite` · `motion` · `axum` · `electron` · `astro` · `pyside6` · `fastapi` · `direct3d 11` · `imgui` · `blender` · `roblox studio`
+**rust** is where the parts that must not lose data live: binary formats,
+filesystem work, local http services, tauri backends. **typescript** for
+interfaces, with a real interest in motion — the difference between a page that
+works and a page that feels built is about four hundred milliseconds. **python**
+for desktop apps and analysis tooling, **c++** when nothing above it will do, and
+**java** for minecraft server plugins.
 
 reverse engineering: lua and luau bytecode, vm-based obfuscators, binary container
 formats, and anti-cheat behaviour — the analysis side of it, so that tooling can be
