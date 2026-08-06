@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/kirukayu/kirukayu/main/media/banner.gif" width="100%" alt="londo">
+<img src="https://raw.githubusercontent.com/kirukayu/kirukayu/main/media/banner.gif" width="100%" alt="hysteric">
 
 <br><br>
 
@@ -18,7 +18,7 @@
 
 <br>
 
-i build tools for games. launchers, cheats , runtime tooling, and the reverse engineering
+i build tools for games. launchers, cheats, runtime tooling, and the reverse engineering
 that comes first.
 
 **luau** is my main language: roblox runtime tooling, ui libraries, bytecode and

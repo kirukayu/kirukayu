@@ -1,29 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000">
   <!--
-    Avatar: L.
+    D: the slice.
 
-    Drawn rather than set in a typeface, so the weight and the proportions are
-    exact at every size. The stem is offset left of centre and the foot runs
-    long — a centred L reads as a mistake, an intentionally placed one reads as
-    a mark. GitHub crops this to a circle, so nothing sits within 90px of the
-    edge and it still holds at 40 pixels.
+    One heavy bar through the frame with the fog torn open behind it. No letter,
+    no diagram, no symbol to decode. It is the most reduced of the four and the
+    one that survives smallest.
   -->
   <defs>
-    <radialGradient id="bg" cx="0.34" cy="0.24" r="0.94">
-      <stop offset="0%"   stop-color="#1c1c1c"/>
-      <stop offset="44%"  stop-color="#0f0f0f"/>
-      <stop offset="100%" stop-color="#040404"/>
+    <radialGradient id="bg" cx="0.3" cy="0.22" r="0.95">
+      <stop offset="0%"   stop-color="#1f1f1f"/>
+      <stop offset="42%"  stop-color="#101010"/>
+      <stop offset="100%" stop-color="#030303"/>
     </radialGradient>
 
-    <radialGradient id="haze" cx="0.74" cy="0.8" r="0.62">
-      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.075"/>
+    <linearGradient id="tear" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="42%"  stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="55%"  stop-color="#ffffff" stop-opacity="0.05"/>
       <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
-    </radialGradient>
+    </linearGradient>
 
-    <linearGradient id="silver" x1="0.05" y1="0" x2="0.95" y2="1">
-      <stop offset="0%"   stop-color="#ffffff"/>
-      <stop offset="44%"  stop-color="#e4e4e4"/>
-      <stop offset="100%" stop-color="#9a9a9a"/>
+    <linearGradient id="ink" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%"   stop-color="#9c9c9c"/>
+      <stop offset="46%"  stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c4c4c4"/>
     </linearGradient>
 
     <filter id="grain">
@@ -34,16 +34,19 @@
   </defs>
 
   <rect width="1000" height="1000" fill="url(#bg)"/>
-  <rect width="1000" height="1000" fill="url(#haze)"/>
+  <rect width="1000" height="1000" fill="url(#tear)"/>
   <rect width="1000" height="1000" filter="url(#grain)" opacity="0.05"/>
 
   <!--
-    The letter: one path, square corner, flat terminals. Lifted above the
-    geometric middle, because an L carries its mass in the bottom left and a
-    mathematically centred one sits visibly low.
-  -->
-  <path d="M352 250 H448 V626 H700 V714 H352 Z" fill="url(#silver)"/>
+    Two thin companions and one heavy stroke, all on the same rake.
 
-  <!-- A hairline under the foot, so the mark has a base rather than an end. -->
-  <rect x="352" y="766" width="348" height="6" fill="#ffffff" opacity="0.22"/>
+    Every end stays inside the inscribed circle: GitHub crops avatars round, and
+    a thin line sheared off mid-length by the rim reads as a mistake. Furthest
+    corner of the heavy bar sits at r=353 of 500, the companions at r=300.
+  -->
+  <g transform="rotate(-32 500 500)">
+    <rect x="302" y="286" width="15"  height="428" rx="8"  fill="#ffffff" opacity="0.26"/>
+    <rect x="452" y="150" width="96"  height="700" rx="48" fill="url(#ink)"/>
+    <rect x="683" y="286" width="15"  height="428" rx="8"  fill="#ffffff" opacity="0.26"/>
+  </g>
 </svg>
