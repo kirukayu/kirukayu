@@ -41,11 +41,3 @@ for interfaces. python, c++ and java where they fit.
 
 mod, co-op and save management for elden ring and the rest of fromsoftware's
 catalogue.
-
-it parses the `.sl2` save container, so moving a character to another account
-rewrites the steam id in place and recomputes the md5 checksums the game checks on
-load. it reads modengine 2 and me3 config, picks the loader chain that will start
-your copy, and shows that plan first.
-
-the window runs a server on loopback and opens your browser at it. rust and axum
-below, react and motion above.
