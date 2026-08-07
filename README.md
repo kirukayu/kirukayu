@@ -18,11 +18,9 @@
 
 <br>
 
-i build tools for games. launchers, cheats, runtime tooling, and the reverse engineering
+i build tools for games. especcialy cheats
 
-**luau** is my main language: roblox runtime tooling, ui libraries, working with bytecode and
-obfuscator . **rust** , **typescript**
-for interfaces. python, c++ and java .
+**luau** is my main language
 
 <br>
 
