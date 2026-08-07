@@ -20,7 +20,7 @@
 
 i build tools for games. especially cheats
 
-**luau** is my main language
+**luau** and **rust** is my main language
 
 <br>
 
