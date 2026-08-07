@@ -18,7 +18,7 @@
 
 <br>
 
-i build tools for games. especcialy cheats
+i build tools for games. especially cheats
 
 **luau** is my main language
 
